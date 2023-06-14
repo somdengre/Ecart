@@ -1,0 +1,26 @@
+
+
+
+
+.nav > div > a { 
+    transition: transform 0.5s cubic-bezier(0,0,0.5,1.26) ;
+}
+
+
+.logoReactNavbar{
+    position: relative;
+    transition: transform 0.1 cubic-bezier(0, 0, 0.5, 1.26) !important ;
+    /* animation: floating 4s linear 0s infinite alternate !important; */
+    /* animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; */
+}
+
+.logoReactNavbar:hover{
+    transform: translateY(-30px);
+}
+
+
+
+
+
